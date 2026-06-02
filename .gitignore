@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Uploads
+uploads/
+backend/uploads/
+
+# Node
+node_modules/
+dist/
+frontend/dist/
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/
