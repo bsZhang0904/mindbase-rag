@@ -37,7 +37,7 @@
 用户提问 → 问题向量化 → Top-K 检索 → 拼装 Prompt → LLM → 保存消息与引用
 ```
 
-### 技术亮点（面试可讲）
+### 技术亮点
 
 - 自研 `Chunker` / `Embedder` / `Retriever` / `Generator`，非黑盒框架堆砌
 - 向量存储与业务数据同库（PostgreSQL），降低 MVP 部署复杂度
